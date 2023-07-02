@@ -5,6 +5,8 @@ body{
   background: url(img/2.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
+  padding-bottom: 75px;
 }
 
 .menu {
