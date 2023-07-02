@@ -80,6 +80,21 @@ body{
   margin-top: 0px;
   transform: rotate(-405deg);
 }
+.footer1 {
+        position: absolute;
+    }
+    
+    footer {
+        background-color: black;
+        color:white;
+        padding: 35px;
+        text-align: center;
+        height: 50px;
+        width: 100%;
+        box-sizing: border-box;
+        position: absolute;
+        bottom: 0;
+    }
 
 
 @media(max-width:730px)
