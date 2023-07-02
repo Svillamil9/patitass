@@ -1,9 +1,11 @@
 body{
-  margin: 0;
-  padding: 0;
-   /*overflow: hidden;*/
-   overflow-x: hidden;
-}
+    margin: 0;
+    padding: 0;
+     /*overflow: hidden;*/
+     overflow-x: hidden;
+     position: relative;
+     padding-bottom: 75px;
+  }
 
 .menu {
   display: flex;
@@ -345,3 +347,19 @@ text-align: center;
 }
 
   }
+
+ .footer1 {
+        position: absolute;
+    }
+    
+    footer {
+        background-color: black;
+        color:white;
+        padding: 35px;
+        text-align: center;
+        height: 50px;
+        width: 100%;
+        box-sizing: border-box;
+        position: absolute;
+        bottom: 0;
+    }
