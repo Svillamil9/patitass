@@ -1,7 +1,10 @@
 body{
   margin: 0;
   padding: 0;
-overflow-x: hidden;
+  overflow-x: hidden;
+  background: url(kongo.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .menu {
