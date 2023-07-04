@@ -29,6 +29,7 @@ body{
       left: 8px;
       width: 100%;
       z-index: 20;
+      width: 0;
   }
   
   
@@ -126,7 +127,10 @@ body{
               justify-content: center;
               width: 100%;
           }
-  
+          #hamburguesa{
+            width: 100%;
+            text-align: Center;
+          }
   
          .header{
           height: 30px;
@@ -386,12 +390,20 @@ body{
     .wrapper .carousel {
       grid-auto-columns: calc((100% / 2) - 9px);
     }
+      #hamburguesa{
+            width: 100%;
+            text-align: Center;
+          }
   }
   
   @media screen and (max-width: 600px) {
     .wrapper .carousel {
       grid-auto-columns: 100%;
     }
+      #hamburguesa{
+            width: 100%;
+            text-align: Center;
+          }
   }
 
 
