@@ -84,7 +84,7 @@ body{
   transform: rotate(-405deg);
 }
 .footer1 {
-        position: absolute;
+        position: relative;
     }
     
     footer {
